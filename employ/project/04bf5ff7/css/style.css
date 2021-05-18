@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&amp;family=Open+Sans:wght@400;600;700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap');
+
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height:  1.3;
+
+  background-color: white;
+  color: #292929; 
+
+  margin: 40px auto 48px auto; 
+  width: 1120px; 
+
+}
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7; 
+}
+
+.emphasis{
+  font-family: 'Inter', sans-serif;
+
+  background-color: #1D1A1B;
+  border: 8px solid;
+
+  border-image-source: linear-gradient(115.98deg, #FF2525 0.59%, #FFA621 27.34%, #E3FE3C 41.25%, #3A66FF 65.33%, #BC2EFF 88.34%, #F6F2E4 103.32%);
+  border-image-slice: 1;
+  color: #F6F2E4;
+  padding: 32px;
+}
+
+.emphasis-2{
+  font-family: 'Inter', sans-serif;
+
+  background-color: #1D1A1B;
+  border: 8px solid;
+  border-color: #039AA0;
+  color: #F6F2E4;
+  padding: 32px;
+}
+
+h2.emphasis{
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  text-transform: none; 
+  color:#292929; 
+  /*letter-spacing: 0.05em; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+span.tag{
+  background-color: #039AA0;
+  color: #ffffff; 
+  padding: 2px 6px 2px 6px;
+  border-radius: 8px;
+}
+
+span.bold{
+  font-weight: 700; 
+}
+
+.logo{
+  width: 80%;
+  height: 80%; 
+  text-decoration: none; 
+}
+
+ul li{
+  display: inline-block;
+  font-size: 18px;  
+}
+
+ol{
+  padding-left: 20px;
+}
+
+ol li{
+  margin-left: 0px;
+  font-size: 18px; 
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px 0px 100px;    
+}
+
+h1{
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+nav{
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+h1 span{
+  font-weight: 700;
+  font-family: 'Inter', sans-serif; 
+}
+
+h2{
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  text-transform: none; 
+  color:#292929; 
+  /*letter-spacing: 0.05em; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+
+h3{
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.no-bold{
+  font-weight: 400; 
+}
+
+.project-description{
+  margin-bottom: 20px; 
+}
+
+a{
+  text-decoration: none;
+  color: #292929; 
+  margin: 0 0 0 32px; 
+  transition: color 0.5s, border-bottom 0.5s; 
+  border-bottom: 2px solid transparent; 
+}
+
+a.link-to-project{
+  text-decoration: none;
+  font-size: 24px; 
+  color: #292929; 
+  margin: 0 auto;
+  text-transform: none; 
+}
+
+
+a.extra{
+  text-decoration: none;
+  /* color: #AD0045; */
+  color: #0336FF; 
+  margin: 0 auto;   
+  transition: color 0.5s, border-bottom 0.5s; 
+  border-bottom: 2px solid transparent; 
+}
+
+a.img-link{
+  margin: 0 auto;  
+  text-decoration: none;  
+  transition: color 0.5s, border-bottom 0.5s; 
+  border-bottom: 2px solid transparent; 
+}
+
+a.paragraph{
+  color:  #0336FF;
+  font-size: 12px; 
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 5px; 
+}
+
+a.paragraph{
+  color:  #0336FF;
+  margin: 0 auto;
+}
+
+.icon-logo{
+  margin: 0 auto; 
+  border-bottom: none; 
+}
+
+a:hover, a.selected{ 
+  border-bottom: 2px solid #0336FF; 
+  font-weight: 700;
+}
+
+a.link-to-project:hover{
+  border-bottom: none;
+  text-decoration: none;
+  color: #0336FF; 
+  transition: color 0.5s;  
+  margin: 0 auto; 
+}
+
+a.paragraph:hover{
+  border-bottom: none;
+  text-decoration: none;
+  color:  #0336FF;
+  font-size: 12px; 
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.icon-logo:hover{
+  margin: 0 auto;
+  border-bottom: none;  
+}
+
+section.grid-layout a{
+  text-align: left; 
+}
+
+section.grid-layout h2, p{
+  padding-left: 5px; 
+}
+
+section{
+  margin: 80px 0; 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px; 
+  grid-auto-flow: dense;  
+}
+
+section h1{
+  grid-column: 2 / span 10;  
+  text-align: left;
+}
+
+section.project div.image{
+  grid-column: 3 / span 4; 
+  text-align: center; 
+}
+
+section.project div.description{
+  grid-column: 7 / span 4; 
+}
+
+section.project-alt div.image{
+  grid-column: 7 / span 4; 
+  text-align: center; 
+}
+
+section.project-alt div.description{
+  grid-column: 3 / span 4; 
+}
+
+
+section.index div.profile-pic{
+  grid-column: 2 / span 3;
+
+}
+
+section.index div.description{
+  grid-column: 5 / span 7; 
+  text-align: left; 
+}
+
+section.about div.profile-pic{
+  grid-column: 2 / span 5;
+  text-align: center; 
+}
+
+section.about div.description{
+  grid-column: 7 / span 6;  
+}
+
+section.about p{
+  margin: 16px 0 16px 0; 
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a{
+  margin: 0 4px 0 4px; 
+}
+
+.container-footer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social-icon{
+  height: 20px;
+  margin: 5px 5px; 
+}
+
+.social-icons-container{
+  text-align: center; 
+}
+
+.footer-notes{
+ font-size: 12px; 
+ text-align: center;  
+}
+
+.highlight{
+  background-color: #B7EEFF;
+}
+
+input,textarea{
+  width: 100%; 
+  border: 2px solid #292929;
+  color: #292929;
+  padding:  8px 16px 8px 16px;    
+}
+
+input:focus,textarea:focus{
+  border: 2px solid #0336FF;
+}
+
+label{
+  margin: 16px 0 16px 0;
+  display: block;  
+}
+
+textarea{
+  height: 320px; 
+}
+
+div.form{
+  font-weight: 700;
+  grid-column: 2 / span 12;
+}
+
+section.contact div.form{
+  grid-column: 3 / span 8; 
+  text-align: left;
+}
+
+section.contact h1{
+  grid-column: 1 / span 12; 
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto; 
+}
+
+section.writing div.form{
+  grid-column: 4 / span 12; 
+  text-align: center;
+}
+
+section.writing div.block{
+  grid-column: 3 / span 8; 
+  text-align: left;
+}
+
+section.writing div.tag-text{
+  text-align: center;
+}
+
+
+section.writing h2{
+  font-style: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #139062;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+section.writing h2.headline{
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  text-transform: none; 
+  color:#292929; 
+  /*letter-spacing: 0.05em; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+section.writing div.image-left{
+  grid-column: 3 / span 4;
+  text-align: right; 
+}
+
+section.writing div.quote-text{
+  grid-column: 3 / span 5;
+  text-align: left; 
+}
+
+section.writing div.image-right{
+  grid-column: 7 / span 4;  
+}
+
+section.writing div.image-right-2{
+  grid-column: 8 / span 4;  
+}
+
+section.writing div.image-center{
+  grid-column: 3 / span 8;
+  
+}
+
+section.writing div.project-center{
+  grid-column: 3 / span 6;
+  
+}
+
+.project-vid-small{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-right: 120px; 
+    overflow: hidden;
+}
+
+.project-vid-medium{
+  width: 800px;
+  display: block;
+  margin: auto; 
+  overflow: hidden;
+}
+
+.button{
+  border: 1px solid #292929;
+  text-decoration: none;
+  color: #292929;
+  padding: 5px 25px;
+  display: inline-block;
+  border-radius: 20px;  
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  margin: 0 0 0 10px; 
+  align-items: center;
+  justify-content: center;  
+}
+
+.button{
+  border: 2px solid #292929;
+  font-weight: 600;
+  text-decoration: none;
+  color: #292929;
+  padding: 7px 12px 7px 12px;
+  display: inline-block;
+  border-radius: 6px;  
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  margin: 0 0 0 10px; 
+  align-items: center;
+  justify-content: center;  
+}
+
+.button:hover{
+  background: #FFDE03; 
+  color: #0F0F0E; 
+}
+
+.project-button{
+  margin-top: 20px; 
+}
+
+button{
+  border: 1px solid #292929;
+  text-decoration: none;
+  color: #292929;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 20px;  
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  margin: 0 0 0 10px; 
+  align-items: center;
+  justify-content: center;  
+}
+
+.contact-button{
+  margin-bottom: 20px; 
+}
+
+div.grid-layout{
+  grid-column: 2 / span 5; 
+}
+
+div.grid-layout-alt{
+  grid-column: 7 / span 5; 
+}
+
+section.grid-layout h2{
+margin: 16px 0 16px 0; 
+}
+
+.header {
+  position: fixed;
+  left: 0; 
+  right: 0; 
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.right {
+  text-align: right;
+}
+
+figcaption{
+  text-align: center;
+  margin: 5px auto; 
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.modal-close {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 810px;
+  width: 90%;
+  transform: translate(-50%,-50%);
+}
+
+.modal {
+  display: none;
+}
+
+.pop-up{
+  margin: 0;
+}
+
+.project-title{
+  font-weight: 700;
+}
+
+.center{
+  text-align: center;
+}
+
+@media (max-width: 1248px) {
+
+      body{ width: auto;
+           margin: 80px 64px 48px 64px; 
+       }
+
+       h1, nav, footer{
+           font-size: 24px; 
+       }
+
+  
+
+} 
+
+@media (max-width: 920px){
+  
+  header{ flex-direction: column; 
+
+  }
+
+  .logo{
+    width: 100%;
+    height: 100%; 
+  }
+
+  nav{
+      margin: 32px 0 0 0; 
+  }
+
+  header img{
+      max-width: 400px; 
+  }
+
+  header a{
+      0 16px 0 16px; 
+  }
+
+  div.profile-pic{
+    grid-column: 2 / Span 9;
+  }
+  
+}
+
+@media (max-width: 900px){
+  .project-vid-medium{
+    display: none; 
+  }
+}
+
+@media (max-width: 800px){
+ 
+  section{
+      grid-template-columns: repeat(4, 1fr)
+      gap: 24px 24px; 
+  }
+
+  div.profile-pic, section.index div.description, section h1, section.grid-layout div, section.project div.image,
+  section.project div.description, 
+  section.project-alt div.image, 
+  section.project-alt div.description, 
+  section.about div.profile-pic,
+  section.about div.description,
+  section.contact div.form, 
+  section.writing div.form, section.writing div.block, section.writing h2, section.writing div.image-left, section.writing div.image-right, section.writing div.image-center, section.writing div.quote-text{
+      grid-column: 2 / span 10;
+
+  }
+
+  section.writing div.quote-text, section.writing div.tag-text{
+    text-align: center;
+
+}
+
+section h1{
+  text-align: center;
+}
+
+section.writing div.quote-text{
+  padding-left: 0px;
+}
+
+.project-vid-small{
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-left: 10px; 
+  overflow: hidden;
+}
+
+  section.index div.profile-pic {
+    grid-column: 2 / span 10;
+  }
+
+  .logo{
+    width: 100%;
+    height: 100%; 
+  }
+
+  .social-icon{
+    height: 20px;
+    margin: 5px 15px; 
+  }
+
+.frame{
+  display: none; 
+}
+
+}
+
+@media (max-width: 600px){
+
+  .logo{
+    width: 100%;
+    height: 100%; 
+  }
+
+.icon-logo{
+  margin-left: 5px; 
+}
+
+.icon-logo:hover{
+  margin-left: 5px; 
+  border-bottom: none;  
+
+}
+  
+.project-vid-small{
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-right: 55px; 
+  overflow: hidden;
+}
+
+header img{
+      margin-right: 30px; 
+  }
+
+  header h1{
+      text-align: center;
+      display: inline-block; 
+  }
+
+  body{
+      margin: 32px 32px 32px 32px; 
+  }
+
+  .footer-notes{
+    font-size: 12px; 
+  }
+
+  ul li{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      margin: 8px 32px 0 0;  
+  }
+
+  section{
+      margin: 64px 0 64px 0; 
+  }
+
+  .social-icon{
+    height: 20px;
+    margin: 5px 15px;
+  }
+
+
+}
+
+@media (max-width: 375px){
+
+section.index div.profile-pic, section.index div.description, section h1, section.grid-layout div, section.project div.image, section.project div.description, section.project-alt div.image, section.project-alt div.description, section.about div.profile-pic, section.about div.description, section.contact div.form,  section.writing div.form, section.writing div.block, section.writing h2, section.writing div.image-left, section.writing div.image-right {
+    grid-column: 2 / Span 9;
+}
+
+
+  .footer-notes{
+    font-size: 8px; 
+  }
+
+  section.writing div.quote-text{
+    padding-left: 0 auto;
+  }
+
+}
+
+
+}
+
